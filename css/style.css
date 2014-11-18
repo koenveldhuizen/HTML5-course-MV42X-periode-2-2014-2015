@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500|Raleway:300);
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+#logo{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	margin: 20px; 
+	border-radius: 50px;
+	float: left;
+}
+header{
+	clear: both;
+	background-color: fuchsia;
+	font-family: 'Raleway', sans-serif;
+}
+nav{
+	width: 50%;
+	float: right;
+	
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+nav li{
+	display: block;
+	float: left;
+	margin: 2px;
+}
+nav a{
+	display: block;
+	text-decoration: none;
+	background-color: #868686;
+	padding: 5px;
+	color: white;
+}
