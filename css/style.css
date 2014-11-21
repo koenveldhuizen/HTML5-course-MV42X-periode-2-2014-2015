@@ -1,50 +1,53 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:500|Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100|Raleway:700);
+
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	background: #e5e5e5;
 }
 .container{
-	width: 960px;
+	width:960px;
 	margin: 0 auto;
 }
 #logo{
-	height: 100px;
 	width: 100px;
-	background-color: blue;
-	margin: 20px; 
+	height: 100px;
+	background: #343434;
 	border-radius: 50px;
+	margin: 20px;
 	float: left;
 }
-header{
-	clear: both;
-	background-color: fuchsia;
-	font-family: 'Raleway', sans-serif;
-}
 nav{
+	margin-top:100px;
 	width: 50%;
 	float: right;
-	margin-top:86px;
-	
 }
 nav ul{
 	margin: 0;
 	padding: 0;
-	list-style-type: none;	
+	list-style-type: none;
 }
 nav li{
 	display: block;
-	float: left;
-	margin: 2px;
+	margin: 0 10px;
+	float:right; 
 }
 nav a{
-	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
 	text-decoration: none;
-	background-color: #868686;
-	padding: 5px 8px;
-	height: 20px;
-	line-height: 20px;
-	font-size: 11px;
-	color: white;
-	letter-spacing: 1px;
+}
+header{
+	clear: both;
+	height: 250px;
+	background: #989898;
+}
+header h1{
+	line-height: 250px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
 }
