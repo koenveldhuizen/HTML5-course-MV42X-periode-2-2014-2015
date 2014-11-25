@@ -54,7 +54,7 @@ header h1{
 }
 #content{
 	background-color: white;
-	overflow: auto;
+	overflow: visible;
 }
 .post{
 	width:300px;
@@ -62,6 +62,7 @@ header h1{
 	margin: 10px;
 }
 blockquote {
+
   font-size: 24px;
   clear: both;
   text-align: center;
@@ -89,4 +90,11 @@ blockquote:after {
 }
 blockquote p {
   display: inline;
+}
+footer{
+	background-color: white;
+	margin: 20px 0 50px 0;
+	height: 30px;
+	line-height: 30px;
+	padding: 10px;
 }
