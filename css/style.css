@@ -52,3 +52,41 @@ header h1{
 	font-weight: 700;
 	font-size: 40px;
 }
+#content{
+	background-color: white;
+	overflow: auto;
+}
+.post{
+	width:300px;
+	float: left;
+	margin: 10px;
+}
+blockquote {
+  font-size: 24px;
+  clear: both;
+  text-align: center;
+  line-height: 40px;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #6686a2;
+  content: open-quote;
+  font-size: 4em;
+    line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  
+}
+blockquote:after {
+  color: #6686a2;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.8em;
+}
+blockquote p {
+  display: inline;
+}
